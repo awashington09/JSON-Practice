@@ -3,21 +3,21 @@ package com.mpls;
 //Attachment attachment = new Attachment("Required plain-text summary of the attachment.", "#36a64f", "Optional text that appears above the attachment block","Bobby Tables","http://flickr.com/bobby/","http://flickr.com/icons/bobby.jpg")
 // the above instatiation needs to go in main class.
 public class Attachment {
-    String fallback;
-    String color;
-    String preText;
-    String author_name;
-    String author_link;
-    String author_icon;
-    String title;
-    String title_link;
-    String text;
-    Fields fields;
-    String im_url;
-    String thumb_url;
-    String footer;
-    String footer_icon;
-    int ts;
+   private String fallback;
+   private String color;
+   private String preText;
+   private String author_name;
+   private String author_link;
+   private String author_icon;
+   private String title;
+   private String title_link;
+   private String text;
+   private Fields fields;
+   private String im_url;
+   private String thumb_url;
+   private String footer;
+   private String footer_icon;
+   private int ts;
 
     public String getFallback() {
         return fallback;
